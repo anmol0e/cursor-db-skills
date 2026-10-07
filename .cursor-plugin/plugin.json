@@ -1,0 +1,46 @@
+{
+  "name": "cursor-db-skills",
+  "displayName": "Cursor DB Skills",
+  "version": "1.0.0",
+  "description": "Inspect, query, export, import, move, and repair Cursor sessions in state.vscdb. Four skills: db-core (shared utilities), inspector (read-only queries), surgeon (write operations), and session-export (3-format archival).",
+  "author": {
+    "name": "anmol0e",
+    "url": "https://github.com/anmol0e"
+  },
+  "homepage": "https://github.com/anmol0e/cursor-db-skills",
+  "repository": "https://github.com/anmol0e/cursor-db-skills",
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "database",
+    "sqlite",
+    "state-vscdb",
+    "sessions",
+    "export",
+    "import",
+    "inspector",
+    "surgeon",
+    "agentlog",
+    "workspace",
+    "migration",
+    "backup"
+  ],
+  "category": "developer-tools",
+  "tags": ["database", "sessions", "export", "migration", "sqlite"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cursor DB Skills",
+    "shortDescription": "Inspect, export, import, and repair Cursor's session database",
+    "longDescription": "Four complementary skills for working with Cursor's state.vscdb SQLite database: read-only inspection (schema, entities, queries), write operations (import, move, pin), full-fidelity session export (raw_store + AgentLog + ASI), and a shared core module for cross-platform DB access.",
+    "developerName": "anmol0e",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Inspect my Cursor database — how many sessions do I have?",
+      "Export this Cursor session to AgentLog format",
+      "Move sessions from one workspace to another"
+    ],
+    "websiteURL": "https://github.com/anmol0e/cursor-db-skills",
+    "brandColor": "#3B82F6"
+  }
+}

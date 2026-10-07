@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agentskills.io/schemas/plugin.json",
+  "name": "cursor-db-skills",
+  "version": "1.0.0",
+  "description": "Inspect, export, import, and repair Cursor's session database (state.vscdb).",
+  "author": {
+    "name": "anmol0e",
+    "url": "https://github.com/anmol0e"
+  },
+  "repository": "https://github.com/anmol0e/cursor-db-skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}

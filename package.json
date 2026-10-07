@@ -1,0 +1,13 @@
+{
+  "name": "@anmol0e/cursor-db-skills",
+  "version": "1.0.0",
+  "description": "Inspect, export, import, and repair Cursor's session database (state.vscdb)",
+  "keywords": ["agent-skills", "cursor", "sqlite", "database", "export", "agentlog", "sessions"],
+  "files": ["skills/", "plugin.json", "LICENSE", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anmol0e/cursor-db-skills.git"
+  },
+  "homepage": "https://github.com/anmol0e/cursor-db-skills"
+}
